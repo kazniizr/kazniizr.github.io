@@ -1,0 +1,128 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	/* color: rgb(0,100,200); */
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+/* 
+a:visited {
+	color: rgb(0,80,160);
+} */
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	text-align: center;
+}
+
+input:disabled {
+	color: #333;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	
+  }
+
+table, th, td {
+	border: 1px solid black;
+	padding: 4px 8px;
+  }
+
+  .btn {
+	  height: 48px;
+	  padding: 0 8px;
+	  display: flex;
+	  align-items: center;
+	  cursor: pointer;
+	  border: 1px solid #6bb42f;
+	  
+  }
+
+  .btn:hover {
+	background: #6bb42f;
+	color: #fff;
+}
+
+.container {
+	padding: 0 15px;
+  }
+  
+  @media (min-width: 575.98px){
+	.container {
+	  max-width: 540px;
+	  margin: auto;
+	  padding: 0;
+	}
+  }
+  
+  @media (min-width: 767.98px){
+	.container {
+	  max-width: 720px;	
+	}
+  }
+  
+  @media (min-width: 991.98px) {
+	.container {
+	  max-width: 960px;
+	}
+  }
+  
+  @media (min-width: 1199.98px){
+	.container {
+	  max-width: 1140px;
+	}
+  }
+
+  .d-flex {
+	  display: flex;
+  }
+
+  .bold {
+	  font-weight: 600;
+  }
